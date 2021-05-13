@@ -12,6 +12,7 @@
       $dbname = ""
       // da inserire il nome del database
 
+      // Connect 
      ?>
   </body>
 </html>
