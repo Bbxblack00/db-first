@@ -9,7 +9,7 @@
       $severname = "loacalhost";
       $username = "root"
       $password = "root"
-      $dbname = ""
+      $dbname = "dbhotel"
       // da inserire il nome del database
 
       // Connect 
