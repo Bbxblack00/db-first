@@ -6,6 +6,14 @@
   </head>
   <body>
     <?php
+
+// TODO TODAY
+// REPO: db-first
+// GOAL: 
+// Pagina con la lista delle stanze,
+// un click porta al dettaglio della
+// stanza
+
       $severname = "loacalhost";
       $username = "root"
       $password = "root"
@@ -18,8 +26,14 @@
       if ($conn && $conn->connect_error) {
         echo "Connection failed" . $conn->connect_error;
       }else{
-        echo "Connessione riuscita"
+        echo "Connessione riuscita";
       }
+
+      var_dump($conn);
+
+      $sql = "SELECT stanze.id, stanze.room_number FROM stanze";
+
+      $conn = close();
      ?>
   </body>
 </html>
